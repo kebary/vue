@@ -6,13 +6,16 @@
 * ◯ : 使用したことがある
 * ◎ : 機能を十分理解しており説明できる　使用の可否を判断できる
 
+## 目次
+* <a href="#MUST">MUST</a>
+* <a href="#WANT">WANT</a>
+
 
 ## MUST
 
 ### オプション / データ
 - data
 - props
-- propsData
 - computed
 - methods
 - watch
@@ -20,8 +23,6 @@
 ### オプション / DOM
 - el
 - template
-- render
-- renderError
 
 ### ディレクティブ
 - v-text
@@ -34,31 +35,11 @@
 - v-on
 - v-bind
 - v-model
-- v-slot
-- v-pre
-- v-cloak
-- v-once
-
-### 特別な属性
-- key
-- ref
-- is
-- slot
-- slot-scope
-- scope 
 
 ### オプション / ライフサイクルフック
-- beforeCreate
-- created
-- beforeMount
 - mounted
-- beforeUpdate
 - updated
-- activated
-- deactivated
 - beforeDestroy
-- destroyed
-- errorCaptured
 
 ### 組み込みコンポーネント
 - component
@@ -87,6 +68,40 @@
 - comments
 
 ## WANT
+
+### オプション / データ
+- propsData
+
+
+### オプション / DOM
+- el
+- template
+
+### ディレクティブ
+
+- v-slot
+- v-pre
+- v-cloak
+- v-once
+
+### 特別な属性
+- key
+- ref
+- is
+- slot
+- slot-scope
+- scope 
+
+
+### オプション / ライフサイクルフック
+- beforeCreate
+- created
+- beforeMount
+- beforeUpdate
+- destroyed
+- activated
+- deactivated
+- errorCaptured
 
 ### グローバル設定
 - silent
